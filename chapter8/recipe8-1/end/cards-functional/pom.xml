@@ -1,46 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.2</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-	<groupId>com.packt</groupId>
-	<artifactId>cards-functional</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>cards-functional</name>
-	<description>Demo project for Spring Boot 3 Cookbook</description>
-	<properties>
-		<java.version>21</java.version>
-	</properties>
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux</artifactId>
-		</dependency>
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:project xmlns:ns0="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <ns0:modelVersion>4.0.0</ns0:modelVersion>
+    <ns0:parent>
+        <ns0:groupId>org.springframework.boot</ns0:groupId>
+        <ns0:artifactId>spring-boot-starter-parent</ns0:artifactId>
+        <ns0:version>3.2.2</ns0:version>
+        <ns0:relativePath/>
+    </ns0:parent>
+    <ns0:groupId>com.packt</ns0:groupId>
+    <ns0:artifactId>cards-functional</ns0:artifactId>
+    <ns0:version>0.0.1-SNAPSHOT</ns0:version>
+    <ns0:name>cards-functional</ns0:name>
+    <ns0:description>Demo project for Spring Boot 3 Cookbook</ns0:description>
+    <ns0:properties>
+        <ns0:java.version>21</ns0:java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </ns0:properties>
+    <ns0:dependencies>
+        <ns0:dependency>
+            <ns0:groupId>org.springframework.boot</ns0:groupId>
+            <ns0:artifactId>spring-boot-starter-webflux</ns0:artifactId>
+        </ns0:dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>io.projectreactor</groupId>
-			<artifactId>reactor-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
+        <ns0:dependency>
+            <ns0:groupId>org.springframework.boot</ns0:groupId>
+            <ns0:artifactId>spring-boot-starter-test</ns0:artifactId>
+            <ns0:scope>test</ns0:scope>
+        </ns0:dependency>
+        <ns0:dependency>
+            <ns0:groupId>io.projectreactor</ns0:groupId>
+            <ns0:artifactId>reactor-test</ns0:artifactId>
+            <ns0:scope>test</ns0:scope>
+        </ns0:dependency>
+    </ns0:dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+    <ns0:build>
+        <ns0:plugins>
+            <ns0:plugin>
+                <ns0:groupId>org.springframework.boot</ns0:groupId>
+                <ns0:artifactId>spring-boot-maven-plugin</ns0:artifactId>
+            </ns0:plugin>
+        </ns0:plugins>
+    </ns0:build>
 
-</project>
+</ns0:project>
